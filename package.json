@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-to-variable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp plugin, Read file content and exports to varialbe at js file",
   "keywords": [
     "gulp",

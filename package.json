@@ -6,9 +6,9 @@
     "gulp",
     "plugin"
   ],
-  "homepage": "https://github.com/Irelander/gul-content-to-variable#readme",
+  "homepage": "https://github.com/Irelander/gulp-content-to-variable#readme",
   "bugs" : {
-    "url" : "https://github.com/Irelander/gul-content-to-variable/issues",
+    "url" : "https://github.com/Irelander/gulp-content-to-variable/issues",
     "email" : "irelander1212@gmail.com"
   },
   "license": "WTFPL",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Irelander/gul-content-to-variable.git"
+    "url": "https://github.com/Irelander/gulp-content-to-variable.git"
   },
   "scripts": {
     "prepublishOnly": "node test.js",

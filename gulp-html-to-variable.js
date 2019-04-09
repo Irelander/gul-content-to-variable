@@ -59,14 +59,14 @@ function concatTransform({concat, prefix, global}) {
   })
 }
 
-function separateTransform({global}) {
+function separateTransform({global, useStringRaw}) {
   return new Transform({
     objectMode: true,
     transform(file, __, done) {
       if (file.isBuffer()) {
         this.push(new File({
           path: file.relative + '.js',
-          contents: Buffer.from(`${global} = String.raw\`${escape(file.contents.toString())}\``),
+          contents: Buffer.from(`${global} = ${ useStringRaw ? 'String.raw' : ''}\`${escape(file.contents.toString())}\``),
         }))
       }
       done()

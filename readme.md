@@ -5,9 +5,9 @@ A [`gulp`](http://gulpjs.com) plugin that converts arbitrary text files or html 
 ## Installation
 
 ```sh
-npm i -E gulp-content-to-variable
+npm i -E gulp-html-to-variable
 # or
-yarn add -E gulp-content-to-variable
+yarn add -E gulp-html-to-variable
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ yarn add -E gulp-content-to-variable
 In your `gulpfile.js`:
 
 ```js
-const htmlToJs = require('gulp-content-to-variable')
+const htmlToJs = require('gulp-html-to-variable')
 
 // Without concatenation
 gulp.task('html:compile', () => (

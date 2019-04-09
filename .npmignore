@@ -1,0 +1,5 @@
+**/.*
+*.iml
+coverage/
+examples/
+node_modules/

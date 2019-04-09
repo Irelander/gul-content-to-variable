@@ -1,0 +1,36 @@
+{
+  "name": "gulp-content-to-variable",
+  "version": "0.1.0",
+  "description": "Gulp plugin, Read file content and exports to varialbe at js file",
+  "keywords": [
+    "gulp",
+    "plugin"
+  ],
+  "homepage": "https://github.com/Irelander/gul-content-to-variable#readme",
+  "bugs" : {
+    "url" : "https://github.com/Irelander/gul-content-to-variable/issues",
+    "email" : "irelander1212@gmail.com"
+  },
+  "license": "WTFPL",
+  "author" : {
+    "name" : "Irelander_kai",
+    "email" : "irelander1212@gmail.com"
+  },
+  "main": "gulp-content-to-variable.js",
+  "peerDependencies": {
+    "vinyl": "*"
+  },
+  "engines": {
+    "node": ">=0.10.3 <0.12",
+    "npm" : "~1.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Irelander/gul-content-to-variable.git"
+  },
+  "scripts": {
+    "prepublishOnly": "node test.js",
+    "start": "node test.js && node watch.js",
+    "test": "node test.js"
+  }
+}
